@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StorytellerDefs>
+
+	<StorytellerDef>
+		<defName>Bison</defName>
+    <label>Raul Bison</label>
+		<description>For you, the day Bison graced your village was the most important day of your life. But for me, it was Tuesday.</description>
+    <portraitLarge>Portrait/RaulBison1</portraitLarge>
+    <portraitTiny>Portrait/RJSmall</portraitTiny>
+    <listOrder>40</listOrder>
+    <comps>
+      <li Class="StorytellerCompProperties_RandomMain">
+        <minDaysPassed>.2</minDaysPassed>
+        <incidentMtb>.3</incidentMtb>
+        <maxThreatBigIntervalDays>7</maxThreatBigIntervalDays>
+        <categoryWeights>
+          <Misc>10</Misc>
+          <OrbitalVisitor>4</OrbitalVisitor>
+          <AllyArrival>3</AllyArrival>
+          <ShipChunkDrop>1</ShipChunkDrop>
+          <ThreatSmall>8</ThreatSmall>
+          <ThreatBig>8</ThreatBig>
+        </categoryWeights>
+      </li>
+      <li Class="StorytellerCompProperties_Disease">
+        <minDaysPassed>60</minDaysPassed>
+      </li>
+    </comps>
+    <desiredPopulationMin>6</desiredPopulationMin>
+    <desiredPopulationMax>8</desiredPopulationMax>
+    <desiredPopulationCritical>8</desiredPopulationCritical>
+  </StorytellerDef>
+
+</StorytellerDefs>
